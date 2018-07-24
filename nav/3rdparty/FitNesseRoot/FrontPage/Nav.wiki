@@ -1,0 +1,32 @@
+---
+Help: This is the navigation module test
+Test
+---
+!1 This is a demo for fitnesse
+!2 Use this page as a reference.
+ 
+!3 Variable Setup
+!define TEST_SYSTEM {slim}
+!define SLIM_VERSION {0.1}
+!define slim.port {2222}
+!path /Users/dbalogh/Documents/host/nav/:/Users/dbalogh/Documents/host/
+!define COMMAND_PATTERN {python3 -m waferslim.server --syspath %p -v}
+
+!3 Imports
+|import|
+|fixtures.Nav|
+|Calc.Calc|
+
+|Calc |
+|A|B|multiply?|
+|1|2|2 |
+|1|0|0 |
+|3|5|15 |
+|5|5|25 |
+
+|Nav |
+|Source|freq|signal?|
+|1|2|90 |
+|1|0|30 |
+|3|5|240|
+|5|5|300|

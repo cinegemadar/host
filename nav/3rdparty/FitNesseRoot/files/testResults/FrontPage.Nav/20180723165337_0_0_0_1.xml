@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/dbalogh/Documents/host/nav/3rdparty/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>143</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+    <exception>Slim Protocol Version Error: Expected V1.2 but was V0.5</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>408</totalRunTimeInMillis>
+</testResults>
+

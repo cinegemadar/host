@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python -m waferslim.server --syspath ~/Documents/host/nav/ 1</command>
+    <exitCode>1</exitCode>
+    <stdOut>Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/site-packages/waferslim-1.0.2-py2.6.egg/waferslim/server.py", line 184, in &lt;module&gt;
+    start_server()
+  File "/usr/local/lib/python2.7/site-packages/waferslim-1.0.2-py2.6.egg/waferslim/server.py", line 181, in start_server
+    WaferSlimServer(options).serve_forever()
+  File "/usr/local/lib/python2.7/site-packages/waferslim-1.0.2-py2.6.egg/waferslim/server.py", line 96, in __init__
+    server_address, SlimRequestHandler)
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 417, in __init__
+    self.server_bind()
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 431, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 13] Permission denied
+</stdOut>
+    <stdErr></stdErr>
+    <exception>Error SLiM server died before Header Message could be read. </exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>164</totalRunTimeInMillis>
+</testResults>
+

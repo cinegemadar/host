@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-07-23T18:25:38+02:00</date>
+    <runTimeInMillis>41</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1 id="Thisisademoforfitnesse"&gt;This is a demo for fitnesse&lt;/h1&gt;
+&lt;h2 id="Usethispageasareference."&gt;Use this page as a reference.&lt;/h2&gt;
+ &lt;br/&gt;&lt;h3 id="VariableSetup"&gt;Variable Setup&lt;/h3&gt;
+&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SLIM_VERSION=0.1&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: slim.port=2222&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/dbalogh/Documents/host:/Users/dbalogh/Documents/host/nav/3rdparty/waferslim-1.0.2&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=python3 -m waferslim.server --syspath %p -v&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="Imports"&gt;Imports&lt;/h3&gt;
+&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;waferslim.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Calc.Calc&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;echo fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;$value_1&amp;lt;-[9]&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;$value_2&amp;lt;-[11]&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;11&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;waferslim.examples.helper_fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;DT:multiplication&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;value 1&lt;/td&gt;
+		&lt;td&gt;value 2&lt;/td&gt;
+		&lt;td&gt;result?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;$value_1-&gt;[9]&lt;/td&gt;
+		&lt;td&gt;$value_2-&gt;[11]&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;99&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Calc&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;A&lt;/td&gt;
+		&lt;td&gt;B&lt;/td&gt;
+		&lt;td&gt;multiply?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;2&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;15&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;25&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>Nav</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='waferslim.fixtures'}</instruction>
+        <slimResult>pass(waferslim.fixtures)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>waferslim.fixtures</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='Calc.Calc'}</instruction>
+        <slimResult>pass(Calc.Calc)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>Calc.Calc</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='EchoFixture', args=[]}</instruction>
+        <slimResult>pass(echo fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>echo fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='callAndAssign', symbolName='value_1', instanceName='scriptTableActor', methodName='echo', args=[9]}</instruction>
+        <slimResult>$value_1&lt;-[9]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$value_1&lt;-[9]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='callAndAssign', symbolName='value_2', instanceName='scriptTableActor', methodName='echo', args=[11]}</instruction>
+        <slimResult>$value_2&lt;-[11]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$value_2&lt;-[11]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_2_0', instruction='import', path='waferslim.examples.helper_fixtures'}</instruction>
+        <slimResult>pass(waferslim.examples.helper_fixtures)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_2_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>waferslim.examples.helper_fixtures</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_3_0', instruction='make', instanceName='decisionTable_3', className='multiplication', args=[]}</instruction>
+        <slimResult>pass(DT:multiplication)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_3_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>DT:multiplication</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_3_4', instruction='call', instanceName='decisionTable_3', methodName='setValue1', args=[$value_1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_3_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_3_5', instruction='call', instanceName='decisionTable_3', methodName='setValue2', args=[$value_2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_3_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_3_7', instruction='call', instanceName='decisionTable_3', methodName='result', args=[]}</instruction>
+        <slimResult>pass(99)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_3_7</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>99</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_0', instruction='make', instanceName='decisionTable_4', className='Calc', args=[]}</instruction>
+        <slimResult>pass(Calc)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Calc</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_4', instruction='call', instanceName='decisionTable_4', methodName='setA', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_5', instruction='call', instanceName='decisionTable_4', methodName='setB', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_7', instruction='call', instanceName='decisionTable_4', methodName='multiply', args=[]}</instruction>
+        <slimResult>pass(2)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_7</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>2</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_9', instruction='call', instanceName='decisionTable_4', methodName='setA', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_9</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_10', instruction='call', instanceName='decisionTable_4', methodName='setB', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_10</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_12', instruction='call', instanceName='decisionTable_4', methodName='multiply', args=[]}</instruction>
+        <slimResult>pass(0)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_12</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_14', instruction='call', instanceName='decisionTable_4', methodName='setA', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_14</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_15', instruction='call', instanceName='decisionTable_4', methodName='setB', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_15</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_17', instruction='call', instanceName='decisionTable_4', methodName='multiply', args=[]}</instruction>
+        <slimResult>pass(15)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_17</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>15</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_19', instruction='call', instanceName='decisionTable_4', methodName='setA', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_19</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_20', instruction='call', instanceName='decisionTable_4', methodName='setB', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_20</instructionId>
+                    <col>1</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_22', instruction='call', instanceName='decisionTable_4', methodName='multiply', args=[]}</instruction>
+        <slimResult>pass(25)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_22</instructionId>
+                    <col>2</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>25</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python3 -m waferslim.server --syspath /Users/dbalogh/Documents/host:/Users/dbalogh/Documents/host/nav/3rdparty/waferslim-1.0.2 -v 2227</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>INFO:WaferSlimServer:Starting server v1.0.2 with options: {'port': '2227', 'inethost': 'localhost', 'encoding': 'utf-8', 'verbose': True, 'keepalive': False, 'logconf': '', 'syspath': '/Users/dbalogh/Documents/host:/Users/dbalogh/Documents/host/nav/3rdparty/waferslim-1.0.2'}
+INFO:WaferSlimServer:Started and listening on 127.0.0.1:2227
+INFO:WaferSlimServer:Handling request from 127.0.0.1:55301
+DEBUG:WaferSlimServer:Send Ack
+DEBUG:WaferSlimServer:Next message 150 bytes
+DEBUG:WaferSlimServer:Recv 150 bytes...
+DEBUG:Instructions:Executing Import import_0_0: ['waferslim.fixtures']
+DEBUG:Instructions:Executing Import import_0_1: ['Calc.Calc']
+DEBUG:WaferSlimServer:Results: [['import_0_0', 'OK'], ['import_0_1', 'OK']]
+DEBUG:WaferSlimServer:Next message 347 bytes
+DEBUG:WaferSlimServer:Recv 347 bytes...
+DEBUG:Instructions:Executing Make scriptTable_1_0: ['scriptTableActor', 'EchoFixture']
+DEBUG:Execution:Importing Calc
+DEBUG:Execution:Importing Calc.Calc
+DEBUG:Execution:Importing waferslim.fixtures
+DEBUG:Execution:Storing instance scriptTableActor=&lt;waferslim.fixtures.EchoFixture object at 0x10c5e19e8&gt;
+DEBUG:Instructions:Executing CallAndAssign scriptTable_1_1: ['value_1', 'scriptTableActor', 'echo', '9']
+DEBUG:Execution:Storing symbol value_1='9'
+DEBUG:Instructions:Executing CallAndAssign scriptTable_1_2: ['value_2', 'scriptTableActor', 'echo', '11']
+DEBUG:Execution:Storing symbol value_2='11'
+DEBUG:WaferSlimServer:Results: [['scriptTable_1_0', 'OK'], ['scriptTable_1_1', '9'], ['scriptTable_1_2', '11']]
+DEBUG:WaferSlimServer:Next message 100 bytes
+DEBUG:WaferSlimServer:Recv 100 bytes...
+DEBUG:Instructions:Executing Import import_2_0: ['waferslim.examples.helper_fixtures']
+DEBUG:WaferSlimServer:Results: [['import_2_0', 'OK']]
+DEBUG:WaferSlimServer:Next message 1017 bytes
+DEBUG:WaferSlimServer:Recv 1017 bytes...
+DEBUG:Instructions:Executing Make decisionTable_3_0: ['decisionTable_3', 'multiplication']
+DEBUG:Execution:Importing waferslim.examples
+DEBUG:Execution:Importing waferslim.examples.helper_fixtures
+DEBUG:Execution:Storing instance decisionTable_3=&lt;waferslim.examples.helper_fixtures.Multiplication object at 0x10c5f9240&gt;
+DEBUG:Instructions:Executing Call decisionTable_3_1: ['decisionTable_3', 'table', [['value 1', 'value 2', 'result?'], ['$value_1', '$value_2', '99']]]
+DEBUG:Execution:Getting library method table
+DEBUG:Instructions:Executing Call decisionTable_3_2: ['decisionTable_3', 'beginTable']
+DEBUG:Execution:Getting library method beginTable
+DEBUG:Instructions:Executing Call decisionTable_3_3: ['decisionTable_3', 'reset']
+DEBUG:Execution:Getting library method reset
+DEBUG:Instructions:Executing Call decisionTable_3_4: ['decisionTable_3', 'setValue1', '$value_1']
+DEBUG:Execution:Restoring symbol value_1='9'
+DEBUG:Instructions:Executing Call decisionTable_3_5: ['decisionTable_3', 'setValue2', '$value_2']
+DEBUG:Execution:Restoring symbol value_2='11'
+DEBUG:Instructions:Executing Call decisionTable_3_6: ['decisionTable_3', 'execute']
+DEBUG:Execution:Getting library method execute
+DEBUG:Instructions:Executing Call decisionTable_3_7: ['decisionTable_3', 'result']
+DEBUG:Instructions:Executing Call decisionTable_3_8: ['decisionTable_3', 'endTable']
+DEBUG:Execution:Getting library method endTable
+DEBUG:WaferSlimServer:Results: [['decisionTable_3_0', 'OK'], ['decisionTable_3_1', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS table Multiplication&gt;&gt;'], ['decisionTable_3_2', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS beginTable Multiplication&gt;&gt;'], ['decisionTable_3_3', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS reset Multiplication&gt;&gt;'], ['decisionTable_3_4', '/__VOID__/'], ['decisionTable_3_5', '/__VOID__/'], ['decisionTable_3_6', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS execute Multiplication&gt;&gt;'], ['decisionTable_3_7', '99'], ['decisionTable_3_8', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS endTable Multiplication&gt;&gt;']]
+DEBUG:WaferSlimServer:Next message 2521 bytes
+DEBUG:WaferSlimServer:Recv 1024 bytes...
+DEBUG:WaferSlimServer:Recv 1024 bytes...
+DEBUG:WaferSlimServer:Recv 473 bytes...
+DEBUG:Instructions:Executing Make decisionTable_4_0: ['decisionTable_4', 'Calc']
+DEBUG:Execution:Storing instance decisionTable_4=&lt;Calc.Calc.Calc object at 0x10c5f9048&gt;
+DEBUG:Instructions:Executing Call decisionTable_4_1: ['decisionTable_4', 'table', [['A', 'B', 'multiply?'], ['1', '2', '2'], ['1', '0', '0'], ['3', '5', '15'], ['5', '5', '25']]]
+DEBUG:Execution:Getting library method table
+DEBUG:Instructions:Executing Call decisionTable_4_2: ['decisionTable_4', 'beginTable']
+DEBUG:Execution:Getting library method beginTable
+DEBUG:Instructions:Executing Call decisionTable_4_3: ['decisionTable_4', 'reset']
+DEBUG:Instructions:Executing Call decisionTable_4_4: ['decisionTable_4', 'setA', '1']
+DEBUG:Instructions:Executing Call decisionTable_4_5: ['decisionTable_4', 'setB', '2']
+DEBUG:Instructions:Executing Call decisionTable_4_6: ['decisionTable_4', 'execute']
+DEBUG:Instructions:Executing Call decisionTable_4_7: ['decisionTable_4', 'multiply']
+DEBUG:Instructions:Executing Call decisionTable_4_8: ['decisionTable_4', 'reset']
+DEBUG:Instructions:Executing Call decisionTable_4_9: ['decisionTable_4', 'setA', '1']
+DEBUG:Instructions:Executing Call decisionTable_4_10: ['decisionTable_4', 'setB', '0']
+DEBUG:Instructions:Executing Call decisionTable_4_11: ['decisionTable_4', 'execute']
+DEBUG:Instructions:Executing Call decisionTable_4_12: ['decisionTable_4', 'multiply']
+DEBUG:Instructions:Executing Call decisionTable_4_13: ['decisionTable_4', 'reset']
+DEBUG:Instructions:Executing Call decisionTable_4_14: ['decisionTable_4', 'setA', '3']
+DEBUG:Instructions:Executing Call decisionTable_4_15: ['decisionTable_4', 'setB', '5']
+DEBUG:Instructions:Executing Call decisionTable_4_16: ['decisionTable_4', 'execute']
+DEBUG:Instructions:Executing Call decisionTable_4_17: ['decisionTable_4', 'multiply']
+DEBUG:Instructions:Executing Call decisionTable_4_18: ['decisionTable_4', 'reset']
+DEBUG:Instructions:Executing Call decisionTable_4_19: ['decisionTable_4', 'setA', '5']
+DEBUG:Instructions:Executing Call decisionTable_4_20: ['decisionTable_4', 'setB', '5']
+DEBUG:Instructions:Executing Call decisionTable_4_21: ['decisionTable_4', 'execute']
+DEBUG:Instructions:Executing Call decisionTable_4_22: ['decisionTable_4', 'multiply']
+DEBUG:Instructions:Executing Call decisionTable_4_23: ['decisionTable_4', 'endTable']
+DEBUG:Execution:Getting library method endTable
+DEBUG:WaferSlimServer:Results: [['decisionTable_4_0', 'OK'], ['decisionTable_4_1', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS table Calc&gt;&gt;'], ['decisionTable_4_2', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS beginTable Calc&gt;&gt;'], ['decisionTable_4_3', '/__VOID__/'], ['decisionTable_4_4', '/__VOID__/'], ['decisionTable_4_5', '/__VOID__/'], ['decisionTable_4_6', '/__VOID__/'], ['decisionTable_4_7', '2'], ['decisionTable_4_8', '/__VOID__/'], ['decisionTable_4_9', '/__VOID__/'], ['decisionTable_4_10', '/__VOID__/'], ['decisionTable_4_11', '/__VOID__/'], ['decisionTable_4_12', '0'], ['decisionTable_4_13', '/__VOID__/'], ['decisionTable_4_14', '/__VOID__/'], ['decisionTable_4_15', '/__VOID__/'], ['decisionTable_4_16', '/__VOID__/'], ['decisionTable_4_17', '15'], ['decisionTable_4_18', '/__VOID__/'], ['decisionTable_4_19', '/__VOID__/'], ['decisionTable_4_20', '/__VOID__/'], ['decisionTable_4_21', '/__VOID__/'], ['decisionTable_4_22', '25'], ['decisionTable_4_23', '__EXCEPTION__: message:&lt;&lt;NO_METHOD_IN_CLASS endTable Calc&gt;&gt;']]
+DEBUG:WaferSlimServer:Next message 3 bytes
+DEBUG:WaferSlimServer:Recv 3 bytes...
+INFO:WaferSlimServer:Done with 127.0.0.1:55301: 4180 bytes received, 2749 bytes sent
+INFO:WaferSlimServer:Shutting down
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>762</totalRunTimeInMillis>
+</testResults>
+

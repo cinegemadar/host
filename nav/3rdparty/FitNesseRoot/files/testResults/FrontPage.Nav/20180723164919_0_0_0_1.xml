@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python3 -m waferslim.server --syspath ~/Documents/host/ 1</command>
+    <exitCode>1</exitCode>
+    <stdOut>Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.6/site-packages/waferslim/server.py", line 164, in &lt;module&gt;
+    start_server()
+  File "/usr/local/lib/python3.6/site-packages/waferslim/server.py", line 161, in start_server
+    WaferSlimServer(options).serve_forever()
+  File "/usr/local/lib/python3.6/site-packages/waferslim/server.py", line 86, in __init__
+    super().__init__(server_address, SlimRequestHandler)
+  File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+</stdOut>
+    <stdErr></stdErr>
+    <exception>Error SLiM server died before Header Message could be read. </exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>186</totalRunTimeInMillis>
+</testResults>
+

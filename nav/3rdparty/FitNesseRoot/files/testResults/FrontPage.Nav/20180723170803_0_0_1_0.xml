@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-07-23T17:08:03+02:00</date>
+    <runTimeInMillis>82</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1 id="Thisisademoforfitnesse"&gt;This is a demo for fitnesse&lt;/h1&gt;
+&lt;h2 id="Usethispageasareference."&gt;Use this page as a reference.&lt;/h2&gt;
+ &lt;br/&gt;&lt;h3 id="VariableSetup"&gt;Variable Setup&lt;/h3&gt;
+&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SLIM_VERSION=0.1&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: slim.port=2222&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/dbalogh/Documents/host &lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=python3 -m waferslim.server --syspath %p&lt;/span&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Nav</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python3 -m waferslim.server --syspath /Users/dbalogh/Documents/host  2223</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>762</totalRunTimeInMillis>
+</testResults>
+

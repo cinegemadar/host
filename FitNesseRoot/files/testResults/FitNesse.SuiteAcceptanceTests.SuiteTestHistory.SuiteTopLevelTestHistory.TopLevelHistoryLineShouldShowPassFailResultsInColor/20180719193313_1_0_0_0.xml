@@ -1,0 +1,1919 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteTestHistory.SuiteTopLevelTestHistory.TopLevelHistoryLineShouldShowPassFailResultsInColor</rootPath>
+    <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-07-19T19:33:13+02:00</date>
+    <runTimeInMillis>310</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario Libraries&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary"&gt;.FitNesse.SuiteAcceptanceTests.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;nothing&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given test page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given slim test page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;!define TEST_SYSTEM {slim}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="@target"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@source&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@target&amp;lt;a title="create page" href="@target?edit&amp;amp;nonExistent=true"&amp;gt;[?]&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have creating link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should not contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;in line&lt;/td&gt;
+		&lt;td&gt;symbol&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;$@symbol=&lt;/td&gt;
+		&lt;td&gt;line number containing&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should match&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page in debug mode&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&amp;amp;debug&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for suite&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?suite&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;its test results should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test ressults for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;widget&lt;/td&gt;
+		&lt;td&gt;wikiText&lt;/td&gt;
+		&lt;td&gt;should render&lt;/td&gt;
+		&lt;td&gt;htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@wikiText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the line&lt;/td&gt;
+		&lt;td&gt;after&lt;/td&gt;
+		&lt;td&gt;should come after&lt;/td&gt;
+		&lt;td&gt;before&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo int&lt;/td&gt;
+		&lt;td&gt;$@before&lt;/td&gt;
+		&lt;td colspan="2"&gt;&amp;lt; $@after&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show Symbol&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;assertions pass,&lt;/td&gt;
+		&lt;td&gt;fail&lt;/td&gt;
+		&lt;td&gt;fail,&lt;/td&gt;
+		&lt;td&gt;ignore&lt;/td&gt;
+		&lt;td&gt;are ignored&lt;/td&gt;
+		&lt;td&gt;exception&lt;/td&gt;
+		&lt;td&gt;exceptions thrown&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="8"&gt;Assertions:&amp;lt;[^&amp;lt;]*@pass right, @fail wrong, @ignore ignored, @exception exceptions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;Assertions:&amp;lt;[^&amp;lt;]*exceptions&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td colspan="6"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and cell&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;has result&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;class="@result"&amp;gt;@text&amp;lt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;class="[^"]+"&amp;gt;@text&amp;lt;&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestSTART=@@@START: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestEND=@@@END: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and TestSystem setup is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and setup content is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and test content is&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;$CONTENT @@@START: Test specific content@content@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$HTML_Result=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;pageHtml&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;$HTML_Input=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;get value&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get collapsed executon log for page&lt;/td&gt;
+		&lt;td colspan="2"&gt;source&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?executionLog&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested and HTML is extracted&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="4"&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="4"&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteTestHistory.ScenarioLibrary"&gt;.FitNesse.SuiteAcceptanceTests.SuiteTestHistory.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteTestHistory.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get history for page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@page?pageHistory&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;$TESTPAGE=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="2"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;get top level history&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;?testHistory&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the number of page histories should be&lt;/td&gt;
+		&lt;td colspan="4"&gt;number&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;count of tag&lt;/td&gt;
+		&lt;td&gt;TR&lt;/td&gt;
+		&lt;td&gt;with id prefix&lt;/td&gt;
+		&lt;td&gt;pageHistoryRow&lt;/td&gt;
+		&lt;td&gt;@number&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the page history bar for&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;should have&lt;/td&gt;
+		&lt;td&gt;number&lt;/td&gt;
+		&lt;td&gt;elements of class&lt;/td&gt;
+		&lt;td colspan="4"&gt;class&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$date=&lt;/td&gt;
+		&lt;td&gt;page history date signature of&lt;/td&gt;
+		&lt;td colspan="8"&gt;@date&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;count of tag&lt;/td&gt;
+		&lt;td&gt;TD&lt;/td&gt;
+		&lt;td&gt;with class&lt;/td&gt;
+		&lt;td&gt;element @class&lt;/td&gt;
+		&lt;td&gt;below tag&lt;/td&gt;
+		&lt;td&gt;TR&lt;/td&gt;
+		&lt;td&gt;with id prefix&lt;/td&gt;
+		&lt;td&gt;pageHistoryRow_$date&lt;/td&gt;
+		&lt;td&gt;@number&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the page title should be&lt;/td&gt;
+		&lt;td&gt;title&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;&amp;lt;h1&amp;gt;@title&amp;lt;/h1&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the page title should be a link to&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;with value&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;li&amp;gt;&amp;lt;a href="/@page"&amp;gt;@value&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the bread crumb&lt;/td&gt;
+		&lt;td&gt;crumb&lt;/td&gt;
+		&lt;td&gt;should be a link to&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="/@page"&amp;gt;@crumb&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;The page history bar for&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;should have a&lt;/td&gt;
+		&lt;td&gt;id&lt;/td&gt;
+		&lt;td&gt;with class&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;and value&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$date=&lt;/td&gt;
+		&lt;td&gt;page history date signature of&lt;/td&gt;
+		&lt;td colspan="7"&gt;@date&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content of tag with id&lt;/td&gt;
+		&lt;td&gt;pageHistoryRow_$date&lt;/td&gt;
+		&lt;td&gt;contains&lt;/td&gt;
+		&lt;td colspan="5"&gt;&amp;lt;td class="@id @class"&amp;gt;@value&amp;lt;/td&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;content of tag with id&lt;/td&gt;
+		&lt;td colspan="7"&gt;pageHistoryRow_$date&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;The page history bar for&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;should have a date field with class&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$date=&lt;/td&gt;
+		&lt;td&gt;page history date signature of&lt;/td&gt;
+		&lt;td colspan="3"&gt;@date&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content of tag with id&lt;/td&gt;
+		&lt;td&gt;pageHistoryRow_$date&lt;/td&gt;
+		&lt;td&gt;contains&lt;/td&gt;
+		&lt;td&gt;&amp;lt;td class="date_field @class"&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the top level history line for&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;is a link to the page history&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="2"&gt;&amp;lt;a href="/@page?pageHistory"&amp;gt;@page&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;The page history line for&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;should be a link to result&lt;/td&gt;
+		&lt;td&gt;resultDate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="$TESTPAGE?pageHistory&amp;amp;resultDate=@resultDate"&amp;gt;@date&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the top level history line for&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;should have a&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;link with&lt;/td&gt;
+		&lt;td&gt;sign&lt;/td&gt;
+		&lt;td&gt;to result&lt;/td&gt;
+		&lt;td&gt;resultDate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="7"&gt;&amp;lt;td class="@class"&amp;gt;&amp;lt;a href="@page?pageHistory&amp;amp;resultDate=@resultDate"&amp;gt;@sign&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the top level history line for&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;should not have a link to&lt;/td&gt;
+		&lt;td&gt;resultDate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="@page?pageHistory&amp;amp;resultDate=@resultDate"&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;class for pass fail in top level history line&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;html contains&lt;/td&gt;
+		&lt;td colspan="9"&gt;&amp;lt;a href="/@page?pageHistory"&amp;gt;@page&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td class="@passClass"&amp;gt;@passCount&amp;lt;/td&amp;gt; &amp;lt;td class="@failClass"&amp;gt;@failCount&amp;lt;/td&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;assume time is&lt;/td&gt;
+		&lt;td&gt;time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;freeze clock at&lt;/td&gt;
+		&lt;td colspan="2"&gt;@time&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;with subpage&lt;/td&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;$IT.@name&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;run suite&lt;/td&gt;
+		&lt;td colspan="2"&gt;name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@name?suite&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteTestHistory.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SuiteTestHistory.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteTestHistory.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_HISTORY_DAYS=15&lt;/span&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;SetUp&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;test.history.days=15&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;page driver&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;echo fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;page driver&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;echo fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;clock fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="6"&gt;&lt;span class="pass"&gt;page history&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;right&lt;/td&gt;
+		&lt;td&gt;wrong&lt;/td&gt;
+		&lt;td&gt;ignores&lt;/td&gt;
+		&lt;td&gt;exceptions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;OneFailPage&lt;/td&gt;
+		&lt;td&gt;5-May-2009&lt;/td&gt;
+		&lt;td&gt;20&lt;/td&gt;
+		&lt;td&gt;30&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;OnePassPage&lt;/td&gt;
+		&lt;td&gt;5-May-2009&lt;/td&gt;
+		&lt;td&gt;20&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;OnePassOneFail&lt;/td&gt;
+		&lt;td&gt;5-May-2009&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;OnePassOneFail&lt;/td&gt;
+		&lt;td&gt;6-May-2009&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;OneError&lt;/td&gt;
+		&lt;td&gt;5-May-2009&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;get top level history&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;get top level history&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;?testHistory&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;200&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;td&gt;HTTP/1.1 200 OK
+Content-Length: 3820
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;Test History&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+  
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-1.11.3.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="testHistory"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+        
+   &amp;lt;/div&amp;gt;
+   &amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;a href="/"&amp;gt;root&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+     &amp;lt;/header&amp;gt;
+  
+  &amp;lt;article&amp;gt;
+   &amp;lt;h1&amp;gt;Test history&amp;lt;/h1&amp;gt;
+&amp;lt;div&amp;gt;
+ &amp;lt;a class="button" href="?responder=overview"&amp;gt;View as Overview&amp;lt;/a&amp;gt;
+ &amp;lt;a class="button" href="?responder=purgeHistory&amp;amp;days=30"&amp;gt;Purge &amp;amp;gt; 30 days&amp;lt;/a&amp;gt;
+ &amp;lt;a class="button" href="?responder=purgeHistory&amp;amp;days=7"&amp;gt;Purge &amp;amp;gt; 7 days&amp;lt;/a&amp;gt;
+ &amp;lt;a class="button" href="?responder=purgeHistory&amp;amp;days=0"&amp;gt;Purge all&amp;lt;/a&amp;gt;
+ &amp;lt;a class="button" href=""&amp;gt;Cancel&amp;lt;/a&amp;gt;
+ &amp;lt;label for="hidePassedTests"&amp;gt;&amp;lt;input type="checkbox" id="hidePassedTests"/&amp;gt;Hide passed tests&amp;lt;/label&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;table&amp;gt;
+ &amp;lt;tr&amp;gt;
+  &amp;lt;th&amp;gt;Page&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Pass&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Fail&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Latest&amp;lt;/th&amp;gt;
+  &amp;lt;th colspan="20"&amp;gt;Last 20 Results&amp;lt;/th&amp;gt;
+ &amp;lt;/tr&amp;gt;
+    
+  &amp;lt;tr&amp;gt;
+    
+        
+        
+    &amp;lt;td&amp;gt;&amp;lt;a href="/OneError?pageHistory"&amp;gt;OneError&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    &amp;lt;td class="ignore"&amp;gt;0&amp;lt;/td&amp;gt;
+    &amp;lt;td class="fail"&amp;gt;1&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;05 May 09, 00:00&amp;lt;/td&amp;gt;
+        &amp;lt;td class="error"&amp;gt;&amp;lt;a href="OneError?pageHistory&amp;amp;resultDate=20090505000000"&amp;gt;-&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    
+  &amp;lt;/tr&amp;gt;
+      
+  &amp;lt;tr&amp;gt;
+    
+        
+        
+    &amp;lt;td&amp;gt;&amp;lt;a href="/OneFailPage?pageHistory"&amp;gt;OneFailPage&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    &amp;lt;td class="ignore"&amp;gt;0&amp;lt;/td&amp;gt;
+    &amp;lt;td class="fail"&amp;gt;1&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;05 May 09, 00:00&amp;lt;/td&amp;gt;
+        &amp;lt;td class="fail"&amp;gt;&amp;lt;a href="OneFailPage?pageHistory&amp;amp;resultDate=20090505000000"&amp;gt;-&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    
+  &amp;lt;/tr&amp;gt;
+      
+  &amp;lt;tr&amp;gt;
+    
+        
+        
+    &amp;lt;td&amp;gt;&amp;lt;a href="/OnePassOneFail?pageHistory"&amp;gt;OnePassOneFail&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    &amp;lt;td class="pass"&amp;gt;1&amp;lt;/td&amp;gt;
+    &amp;lt;td class="fail"&amp;gt;1&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;06 May 09, 00:00&amp;lt;/td&amp;gt;
+        &amp;lt;td class="fail"&amp;gt;&amp;lt;a href="OnePassOneFail?pageHistory&amp;amp;resultDate=20090506000000"&amp;gt;-&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;td class="pass"&amp;gt;&amp;lt;a href="OnePassOneFail?pageHistory&amp;amp;resultDate=20090505000000"&amp;gt;+&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    
+  &amp;lt;/tr&amp;gt;
+      
+  &amp;lt;tr&amp;gt;
+    
+        
+        
+    &amp;lt;td&amp;gt;&amp;lt;a href="/OnePassPage?pageHistory"&amp;gt;OnePassPage&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    &amp;lt;td class="pass"&amp;gt;1&amp;lt;/td&amp;gt;
+    &amp;lt;td class="ignore"&amp;gt;0&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;05 May 09, 00:00&amp;lt;/td&amp;gt;
+        &amp;lt;td class="pass"&amp;gt;&amp;lt;a href="OnePassPage?pageHistory&amp;amp;resultDate=20090505000000"&amp;gt;+&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+    
+  &amp;lt;/tr&amp;gt;
+    
+&amp;lt;/table&amp;gt;
+  &amp;lt;/article&amp;gt;
+  
+    
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;class for pass fail in top level history line&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;OneFailPage&lt;/td&gt;
+		&lt;td class="pass"&gt;ignore&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;fail&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="5"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;class for pass fail in top level history line&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;html contains&lt;/td&gt;
+		&lt;td colspan="9"&gt;&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;OnePassPage&lt;/td&gt;
+		&lt;td class="pass"&gt;pass&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;ignore&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="5"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;class for pass fail in top level history line&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;html contains&lt;/td&gt;
+		&lt;td colspan="9"&gt;&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;OnePassOneFail&lt;/td&gt;
+		&lt;td class="pass"&gt;pass&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;fail&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="5"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;class for pass fail in top level history line&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;html contains&lt;/td&gt;
+		&lt;td colspan="9"&gt;&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;OneError&lt;/td&gt;
+		&lt;td class="pass"&gt;ignore&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;fail&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="5"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;class for pass fail in top level history line&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;pass count&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail class&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;fail count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;html contains&lt;/td&gt;
+		&lt;td colspan="9"&gt;&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;tear down&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TopLevelHistoryLineShouldShowPassFailResultsInColor</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_56_0', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_56_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_57_0', instruction='make', instanceName='decisionTable_57', className='SetUp', args=[test.history.days=15]}</instruction>
+        <slimResult>pass(SetUp)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_57_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>SetUp</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_58_0', instruction='make', instanceName='library1', className='PageDriver', args=[]}</instruction>
+        <slimResult>pass(page driver)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>library_58_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>page driver</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_58_1', instruction='make', instanceName='library2', className='EchoFixture', args=[]}</instruction>
+        <slimResult>pass(echo fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>library_58_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>echo fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_59_0', instruction='make', instanceName='library1', className='PageDriver', args=[]}</instruction>
+        <slimResult>pass(page driver)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>library_59_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>page driver</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_59_1', instruction='make', instanceName='library2', className='EchoFixture', args=[]}</instruction>
+        <slimResult>pass(echo fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>library_59_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>echo fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_59_2', instruction='make', instanceName='library3', className='ClockFixture', args=[]}</instruction>
+        <slimResult>pass(clock fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>library_59_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>clock fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_0', instruction='make', instanceName='decisionTable_60', className='PageHistory', args=[]}</instruction>
+        <slimResult>pass(page history)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_60_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>page history</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_4', instruction='call', instanceName='decisionTable_60', methodName='setName', args=[OneFailPage]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_5', instruction='call', instanceName='decisionTable_60', methodName='setDate', args=[5-May-2009]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_6', instruction='call', instanceName='decisionTable_60', methodName='setRight', args=[20]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_6</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_7', instruction='call', instanceName='decisionTable_60', methodName='setWrong', args=[30]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_7</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_8', instruction='call', instanceName='decisionTable_60', methodName='setIgnores', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_8</instructionId>
+                    <col>4</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_9', instruction='call', instanceName='decisionTable_60', methodName='setExceptions', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_9</instructionId>
+                    <col>5</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_12', instruction='call', instanceName='decisionTable_60', methodName='setName', args=[OnePassPage]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_12</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_13', instruction='call', instanceName='decisionTable_60', methodName='setDate', args=[5-May-2009]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_13</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_14', instruction='call', instanceName='decisionTable_60', methodName='setRight', args=[20]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_14</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_15', instruction='call', instanceName='decisionTable_60', methodName='setWrong', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_15</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_16', instruction='call', instanceName='decisionTable_60', methodName='setIgnores', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_16</instructionId>
+                    <col>4</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_17', instruction='call', instanceName='decisionTable_60', methodName='setExceptions', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_17</instructionId>
+                    <col>5</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_20', instruction='call', instanceName='decisionTable_60', methodName='setName', args=[OnePassOneFail]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_20</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_21', instruction='call', instanceName='decisionTable_60', methodName='setDate', args=[5-May-2009]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_21</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_22', instruction='call', instanceName='decisionTable_60', methodName='setRight', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_22</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_23', instruction='call', instanceName='decisionTable_60', methodName='setWrong', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_23</instructionId>
+                    <col>3</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_24', instruction='call', instanceName='decisionTable_60', methodName='setIgnores', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_24</instructionId>
+                    <col>4</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_25', instruction='call', instanceName='decisionTable_60', methodName='setExceptions', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_25</instructionId>
+                    <col>5</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_28', instruction='call', instanceName='decisionTable_60', methodName='setName', args=[OnePassOneFail]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_28</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_29', instruction='call', instanceName='decisionTable_60', methodName='setDate', args=[6-May-2009]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_29</instructionId>
+                    <col>1</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_30', instruction='call', instanceName='decisionTable_60', methodName='setRight', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_30</instructionId>
+                    <col>2</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_31', instruction='call', instanceName='decisionTable_60', methodName='setWrong', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_31</instructionId>
+                    <col>3</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_32', instruction='call', instanceName='decisionTable_60', methodName='setIgnores', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_32</instructionId>
+                    <col>4</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_33', instruction='call', instanceName='decisionTable_60', methodName='setExceptions', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_33</instructionId>
+                    <col>5</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_36', instruction='call', instanceName='decisionTable_60', methodName='setName', args=[OneError]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_36</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_37', instruction='call', instanceName='decisionTable_60', methodName='setDate', args=[5-May-2009]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_37</instructionId>
+                    <col>1</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_38', instruction='call', instanceName='decisionTable_60', methodName='setRight', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_38</instructionId>
+                    <col>2</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_39', instruction='call', instanceName='decisionTable_60', methodName='setWrong', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_39</instructionId>
+                    <col>3</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_40', instruction='call', instanceName='decisionTable_60', methodName='setIgnores', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_40</instructionId>
+                    <col>4</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_60_41', instruction='call', instanceName='decisionTable_60', methodName='setExceptions', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_60_41</instructionId>
+                    <col>5</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_61_0/scriptTable_40_0', instruction='call', instanceName='scriptTableActor', methodName='requestPage', args=[?testHistory]}</instruction>
+        <slimResult>pass(200)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_61_0/scriptTable_40_0</instructionId>
+                    <col>3</col>
+                              <row>1</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>200</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_61_0/scriptTable_40_1', instruction='call', instanceName='scriptTableActor', methodName='content', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_61_0/scriptTable_40_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_62_0/scriptTable_52_0', instruction='call', instanceName='scriptTableActor', methodName='htmlContains', args=[&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_62_0/scriptTable_52_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_62_1/scriptTable_52_0', instruction='call', instanceName='scriptTableActor', methodName='htmlContains', args=[&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_62_1/scriptTable_52_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_62_2/scriptTable_52_0', instruction='call', instanceName='scriptTableActor', methodName='htmlContains', args=[&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_62_2/scriptTable_52_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_62_3/scriptTable_52_0', instruction='call', instanceName='scriptTableActor', methodName='htmlContains', args=[&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_62_3/scriptTable_52_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_63_0', instruction='make', instanceName='decisionTable_63', className='TearDown', args=[]}</instruction>
+        <slimResult>pass(tear down)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_63_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>tear down</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut>html = HTTP/1.1 200 OK Content-Length: 3820 Content-Type: text/html; charset=UTF-8 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;title&gt;Test History&lt;/title&gt; &lt;!--[if lt IE 9]&gt; &lt;script&gt; document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('footer'); &lt;/script&gt; &lt;![endif]--&gt; &lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&gt; &lt;script src="/files/fitnesse/javascript/jquery-1.11.3.min.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&gt;&lt;/script&gt; &lt;/head&gt; &lt;body class="testHistory"&gt; &lt;nav class="navbar-fixed-top " role="navigation"&gt; &lt;div class="navbar navbar-default"&gt; &lt;!-- Brand and toggle get grouped for better mobile display --&gt; &lt;div class="navbar-header"&gt; &lt;a class="navbar-brand" href="/FrontPage"&gt;&lt;span&gt;FitNesse&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;ol class="page-actions btn-group"&gt; &lt;li class="expandall btn btn-xs"&gt;Expand All&lt;/li&gt; &lt;li class="collapseall btn btn-xs"&gt;Collapse All&lt;/li&gt; &lt;/ol&gt; &lt;ol class="breadcrumb"&gt; &lt;li&gt;&lt;a href="/"&gt;root&lt;/a&gt;&lt;/li&gt; &lt;/ol&gt; &lt;/nav&gt; &lt;header&gt; &lt;/header&gt; &lt;article&gt; &lt;h1&gt;Test history&lt;/h1&gt; &lt;div&gt; &lt;a class="button" href="?responder=overview"&gt;View as Overview&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=30"&gt;Purge &amp;gt; 30 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=7"&gt;Purge &amp;gt; 7 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=0"&gt;Purge all&lt;/a&gt; &lt;a class="button" href=""&gt;Cancel&lt;/a&gt; &lt;label for="hidePassedTests"&gt;&lt;input type="checkbox" id="hidePassedTests"/&gt;Hide passed tests&lt;/label&gt; &lt;/div&gt; &lt;table&gt; &lt;tr&gt; &lt;th&gt;Page&lt;/th&gt; &lt;th&gt;Pass&lt;/th&gt; &lt;th&gt;Fail&lt;/th&gt; &lt;th&gt;Latest&lt;/th&gt; &lt;th colspan="20"&gt;Last 20 Results&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="error"&gt;&lt;a href="OneError?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OneFailPage?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;06 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090506000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassPage?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/article&gt; &lt;/body&gt; &lt;/html&gt; 
+subString = &lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;
+html = HTTP/1.1 200 OK Content-Length: 3820 Content-Type: text/html; charset=UTF-8 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;title&gt;Test History&lt;/title&gt; &lt;!--[if lt IE 9]&gt; &lt;script&gt; document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('footer'); &lt;/script&gt; &lt;![endif]--&gt; &lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&gt; &lt;script src="/files/fitnesse/javascript/jquery-1.11.3.min.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&gt;&lt;/script&gt; &lt;/head&gt; &lt;body class="testHistory"&gt; &lt;nav class="navbar-fixed-top " role="navigation"&gt; &lt;div class="navbar navbar-default"&gt; &lt;!-- Brand and toggle get grouped for better mobile display --&gt; &lt;div class="navbar-header"&gt; &lt;a class="navbar-brand" href="/FrontPage"&gt;&lt;span&gt;FitNesse&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;ol class="page-actions btn-group"&gt; &lt;li class="expandall btn btn-xs"&gt;Expand All&lt;/li&gt; &lt;li class="collapseall btn btn-xs"&gt;Collapse All&lt;/li&gt; &lt;/ol&gt; &lt;ol class="breadcrumb"&gt; &lt;li&gt;&lt;a href="/"&gt;root&lt;/a&gt;&lt;/li&gt; &lt;/ol&gt; &lt;/nav&gt; &lt;header&gt; &lt;/header&gt; &lt;article&gt; &lt;h1&gt;Test history&lt;/h1&gt; &lt;div&gt; &lt;a class="button" href="?responder=overview"&gt;View as Overview&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=30"&gt;Purge &amp;gt; 30 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=7"&gt;Purge &amp;gt; 7 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=0"&gt;Purge all&lt;/a&gt; &lt;a class="button" href=""&gt;Cancel&lt;/a&gt; &lt;label for="hidePassedTests"&gt;&lt;input type="checkbox" id="hidePassedTests"/&gt;Hide passed tests&lt;/label&gt; &lt;/div&gt; &lt;table&gt; &lt;tr&gt; &lt;th&gt;Page&lt;/th&gt; &lt;th&gt;Pass&lt;/th&gt; &lt;th&gt;Fail&lt;/th&gt; &lt;th&gt;Latest&lt;/th&gt; &lt;th colspan="20"&gt;Last 20 Results&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="error"&gt;&lt;a href="OneError?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OneFailPage?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;06 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090506000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassPage?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/article&gt; &lt;/body&gt; &lt;/html&gt; 
+subString = &lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt;
+html = HTTP/1.1 200 OK Content-Length: 3820 Content-Type: text/html; charset=UTF-8 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;title&gt;Test History&lt;/title&gt; &lt;!--[if lt IE 9]&gt; &lt;script&gt; document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('footer'); &lt;/script&gt; &lt;![endif]--&gt; &lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&gt; &lt;script src="/files/fitnesse/javascript/jquery-1.11.3.min.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&gt;&lt;/script&gt; &lt;/head&gt; &lt;body class="testHistory"&gt; &lt;nav class="navbar-fixed-top " role="navigation"&gt; &lt;div class="navbar navbar-default"&gt; &lt;!-- Brand and toggle get grouped for better mobile display --&gt; &lt;div class="navbar-header"&gt; &lt;a class="navbar-brand" href="/FrontPage"&gt;&lt;span&gt;FitNesse&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;ol class="page-actions btn-group"&gt; &lt;li class="expandall btn btn-xs"&gt;Expand All&lt;/li&gt; &lt;li class="collapseall btn btn-xs"&gt;Collapse All&lt;/li&gt; &lt;/ol&gt; &lt;ol class="breadcrumb"&gt; &lt;li&gt;&lt;a href="/"&gt;root&lt;/a&gt;&lt;/li&gt; &lt;/ol&gt; &lt;/nav&gt; &lt;header&gt; &lt;/header&gt; &lt;article&gt; &lt;h1&gt;Test history&lt;/h1&gt; &lt;div&gt; &lt;a class="button" href="?responder=overview"&gt;View as Overview&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=30"&gt;Purge &amp;gt; 30 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=7"&gt;Purge &amp;gt; 7 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=0"&gt;Purge all&lt;/a&gt; &lt;a class="button" href=""&gt;Cancel&lt;/a&gt; &lt;label for="hidePassedTests"&gt;&lt;input type="checkbox" id="hidePassedTests"/&gt;Hide passed tests&lt;/label&gt; &lt;/div&gt; &lt;table&gt; &lt;tr&gt; &lt;th&gt;Page&lt;/th&gt; &lt;th&gt;Pass&lt;/th&gt; &lt;th&gt;Fail&lt;/th&gt; &lt;th&gt;Latest&lt;/th&gt; &lt;th colspan="20"&gt;Last 20 Results&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="error"&gt;&lt;a href="OneError?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OneFailPage?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;06 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090506000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassPage?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/article&gt; &lt;/body&gt; &lt;/html&gt; 
+subString = &lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;
+html = HTTP/1.1 200 OK Content-Length: 3820 Content-Type: text/html; charset=UTF-8 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;title&gt;Test History&lt;/title&gt; &lt;!--[if lt IE 9]&gt; &lt;script&gt; document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('footer'); &lt;/script&gt; &lt;![endif]--&gt; &lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&gt; &lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&gt; &lt;script src="/files/fitnesse/javascript/jquery-1.11.3.min.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&gt;&lt;/script&gt; &lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&gt;&lt;/script&gt; &lt;/head&gt; &lt;body class="testHistory"&gt; &lt;nav class="navbar-fixed-top " role="navigation"&gt; &lt;div class="navbar navbar-default"&gt; &lt;!-- Brand and toggle get grouped for better mobile display --&gt; &lt;div class="navbar-header"&gt; &lt;a class="navbar-brand" href="/FrontPage"&gt;&lt;span&gt;FitNesse&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;ol class="page-actions btn-group"&gt; &lt;li class="expandall btn btn-xs"&gt;Expand All&lt;/li&gt; &lt;li class="collapseall btn btn-xs"&gt;Collapse All&lt;/li&gt; &lt;/ol&gt; &lt;ol class="breadcrumb"&gt; &lt;li&gt;&lt;a href="/"&gt;root&lt;/a&gt;&lt;/li&gt; &lt;/ol&gt; &lt;/nav&gt; &lt;header&gt; &lt;/header&gt; &lt;article&gt; &lt;h1&gt;Test history&lt;/h1&gt; &lt;div&gt; &lt;a class="button" href="?responder=overview"&gt;View as Overview&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=30"&gt;Purge &amp;gt; 30 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=7"&gt;Purge &amp;gt; 7 days&lt;/a&gt; &lt;a class="button" href="?responder=purgeHistory&amp;days=0"&gt;Purge all&lt;/a&gt; &lt;a class="button" href=""&gt;Cancel&lt;/a&gt; &lt;label for="hidePassedTests"&gt;&lt;input type="checkbox" id="hidePassedTests"/&gt;Hide passed tests&lt;/label&gt; &lt;/div&gt; &lt;table&gt; &lt;tr&gt; &lt;th&gt;Page&lt;/th&gt; &lt;th&gt;Pass&lt;/th&gt; &lt;th&gt;Fail&lt;/th&gt; &lt;th&gt;Latest&lt;/th&gt; &lt;th colspan="20"&gt;Last 20 Results&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="error"&gt;&lt;a href="OneError?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OneFailPage?pageHistory"&gt;OneFailPage&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OneFailPage?pageHistory&amp;resultDate=20090505000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassOneFail?pageHistory"&gt;OnePassOneFail&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt; &lt;td&gt;06 May 09, 00:00&lt;/td&gt; &lt;td class="fail"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090506000000"&gt;-&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassOneFail?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;a href="/OnePassPage?pageHistory"&gt;OnePassPage&lt;/a&gt;&lt;/td&gt; &lt;td class="pass"&gt;1&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td&gt;05 May 09, 00:00&lt;/td&gt; &lt;td class="pass"&gt;&lt;a href="OnePassPage?pageHistory&amp;resultDate=20090505000000"&gt;+&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/article&gt; &lt;/body&gt; &lt;/html&gt; 
+subString = &lt;a href="/OneError?pageHistory"&gt;OneError&lt;/a&gt;&lt;/td&gt; &lt;td class="ignore"&gt;0&lt;/td&gt; &lt;td class="fail"&gt;1&lt;/td&gt;
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>310</totalRunTimeInMillis>
+</testResults>
+

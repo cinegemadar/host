@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python3 -m waferslim.server --syspath /Users/dbalogh/Documents/host  2222 1</command>
+    <exitCode>143</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+    <exception>Timeout while reading slim header from client. Check that you are connecting to the right port and that the slim client is running. You can increase the timeout limit by setting 'slim.timeout' in the fitnesse properties file.</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>12429</totalRunTimeInMillis>
+</testResults>
+

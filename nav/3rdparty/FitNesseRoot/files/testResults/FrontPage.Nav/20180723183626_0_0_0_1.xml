@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.Nav</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>13</exceptions>
+    </counts>
+    <date>2018-07-23T18:36:26+02:00</date>
+    <runTimeInMillis>14</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1 id="Thisisademoforfitnesse"&gt;This is a demo for fitnesse&lt;/h1&gt;
+&lt;h2 id="Usethispageasareference."&gt;Use this page as a reference.&lt;/h2&gt;
+ &lt;br/&gt;&lt;h3 id="VariableSetup"&gt;Variable Setup&lt;/h3&gt;
+&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SLIM_VERSION=0.1&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: slim.port=2222&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/dbalogh/Documents/host/nav&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=python3 -m waferslim.server --syspath %p -v&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="Imports"&gt;Imports&lt;/h3&gt;
+&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fixtures.NavFixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;:NavFixtures.CheckGps&lt;a title="create page" href="FrontPage.NavFixtures.CheckGps?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; &lt;span class="error"&gt;Could not find class NavFixtures.CheckGps&amp;lt;a&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;value1&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+		&lt;td&gt;result?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;15 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;25 &lt;span class="error"&gt;The instance decisionTable_1 does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>Nav</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='fixtures.NavFixtures'}</instruction>
+        <slimResult>pass(fixtures.NavFixtures)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>fixtures.NavFixtures</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='NavFixtures.CheckGps&lt;a title="create page" href="FrontPage.NavFixtures.CheckGps?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt;', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not find class NavFixtures.CheckGps&lt;a</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setValue1', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setValue', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_5</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='result', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_7</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setValue1', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_9</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setValue', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_10</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='result', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_12</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setValue1', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_14</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setValue', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_15</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='result', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_17</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setValue1', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_19</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setValue', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_20</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='result', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_22</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1 does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>python3 -m waferslim.server --syspath /Users/dbalogh/Documents/host/nav -v 2227</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>INFO:WaferSlimServer:Starting server v1.0.2 with options: {'port': '2227', 'inethost': 'localhost', 'encoding': 'utf-8', 'verbose': True, 'keepalive': False, 'logconf': '', 'syspath': '/Users/dbalogh/Documents/host/nav'}
+INFO:WaferSlimServer:Started and listening on 127.0.0.1:2227
+INFO:WaferSlimServer:Handling request from 127.0.0.1:55738
+DEBUG:WaferSlimServer:Send Ack
+DEBUG:WaferSlimServer:Next message 86 bytes
+DEBUG:WaferSlimServer:Recv 86 bytes...
+DEBUG:Instructions:Executing Import import_0_0: ['fixtures.NavFixtures']
+DEBUG:WaferSlimServer:Results: [['import_0_0', 'OK']]
+DEBUG:WaferSlimServer:Next message 2662 bytes
+DEBUG:WaferSlimServer:Recv 1024 bytes...
+DEBUG:WaferSlimServer:Recv 1024 bytes...
+DEBUG:WaferSlimServer:Recv 614 bytes...
+DEBUG:Instructions:Executing Make decisionTable_1_0: ['decisionTable_1', 'NavFixtures.CheckGps&lt;a title="create page" href="FrontPage.NavFixtures.CheckGps?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt;']
+DEBUG:Execution:Importing NavFixtures
+DEBUG:Instructions:Executing Call decisionTable_1_1: ['decisionTable_1', 'table', [['value1', 'value', 'result?'], ['1', '2', '2'], ['1', '0', '0'], ['3', '5', '15'], ['5', '5', '25']]]
+DEBUG:Execution:Getting library method table
+DEBUG:Instructions:Executing Call decisionTable_1_2: ['decisionTable_1', 'beginTable']
+DEBUG:Execution:Getting library method beginTable
+DEBUG:Instructions:Executing Call decisionTable_1_3: ['decisionTable_1', 'reset']
+DEBUG:Execution:Getting library method reset
+DEBUG:Instructions:Executing Call decisionTable_1_4: ['decisionTable_1', 'setValue1', '1']
+DEBUG:Execution:Getting library method setValue1
+DEBUG:Instructions:Executing Call decisionTable_1_5: ['decisionTable_1', 'setValue', '2']
+DEBUG:Execution:Getting library method setValue
+DEBUG:Instructions:Executing Call decisionTable_1_6: ['decisionTable_1', 'execute']
+DEBUG:Execution:Getting library method execute
+DEBUG:Instructions:Executing Call decisionTable_1_7: ['decisionTable_1', 'result']
+DEBUG:Execution:Getting library method result
+DEBUG:Instructions:Executing Call decisionTable_1_8: ['decisionTable_1', 'reset']
+DEBUG:Execution:Getting library method reset
+DEBUG:Instructions:Executing Call decisionTable_1_9: ['decisionTable_1', 'setValue1', '1']
+DEBUG:Execution:Getting library method setValue1
+DEBUG:Instructions:Executing Call decisionTable_1_10: ['decisionTable_1', 'setValue', '0']
+DEBUG:Execution:Getting library method setValue
+DEBUG:Instructions:Executing Call decisionTable_1_11: ['decisionTable_1', 'execute']
+DEBUG:Execution:Getting library method execute
+DEBUG:Instructions:Executing Call decisionTable_1_12: ['decisionTable_1', 'result']
+DEBUG:Execution:Getting library method result
+DEBUG:Instructions:Executing Call decisionTable_1_13: ['decisionTable_1', 'reset']
+DEBUG:Execution:Getting library method reset
+DEBUG:Instructions:Executing Call decisionTable_1_14: ['decisionTable_1', 'setValue1', '3']
+DEBUG:Execution:Getting library method setValue1
+DEBUG:Instructions:Executing Call decisionTable_1_15: ['decisionTable_1', 'setValue', '5']
+DEBUG:Execution:Getting library method setValue
+DEBUG:Instructions:Executing Call decisionTable_1_16: ['decisionTable_1', 'execute']
+DEBUG:Execution:Getting library method execute
+DEBUG:Instructions:Executing Call decisionTable_1_17: ['decisionTable_1', 'result']
+DEBUG:Execution:Getting library method result
+DEBUG:Instructions:Executing Call decisionTable_1_18: ['decisionTable_1', 'reset']
+DEBUG:Execution:Getting library method reset
+DEBUG:Instructions:Executing Call decisionTable_1_19: ['decisionTable_1', 'setValue1', '5']
+DEBUG:Execution:Getting library method setValue1
+DEBUG:Instructions:Executing Call decisionTable_1_20: ['decisionTable_1', 'setValue', '5']
+DEBUG:Execution:Getting library method setValue
+DEBUG:Instructions:Executing Call decisionTable_1_21: ['decisionTable_1', 'execute']
+DEBUG:Execution:Getting library method execute
+DEBUG:Instructions:Executing Call decisionTable_1_22: ['decisionTable_1', 'result']
+DEBUG:Execution:Getting library method result
+DEBUG:Instructions:Executing Call decisionTable_1_23: ['decisionTable_1', 'endTable']
+DEBUG:Execution:Getting library method endTable
+DEBUG:WaferSlimServer:Results: [['decisionTable_1_0', '__EXCEPTION__: message:&lt;&lt;NO_CLASS NavFixtures.CheckGps&lt;a title="create page" href="FrontPage.NavFixtures.CheckGps?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt; No module named \'NavFixtures\'&gt;&gt;'], ['decisionTable_1_1', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_2', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_3', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_4', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_5', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_6', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_7', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_8', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_9', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_10', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_11', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_12', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_13', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_14', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_15', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_16', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_17', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_18', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_19', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_20', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_21', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_22', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;'], ['decisionTable_1_23', '__EXCEPTION__: message:&lt;&lt;NO_INSTANCE decisionTable_1&gt;&gt;']]
+DEBUG:WaferSlimServer:Next message 3 bytes
+DEBUG:WaferSlimServer:Recv 3 bytes...
+INFO:WaferSlimServer:Done with 127.0.0.1:55738: 2772 bytes received, 2722 bytes sent
+INFO:WaferSlimServer:Shutting down
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>869</totalRunTimeInMillis>
+</testResults>
+
